@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_recents"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:title="Recents"
+        android:onClick="Ruoqi"
+        android:titleCondensed="Recents" />
+    <item
+        android:id="@+id/action_favorites"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:onClick="Ruoqi"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/action_nearby"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:onClick="Ruoqi"
+        android:title="Nearby" />
+    <item
+        android:id="@+id/ruoqi"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:onClick="Ruoqi"
+        android:title="女神"/>
+</menu>
